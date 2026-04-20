@@ -137,3 +137,21 @@ Este proyecto demuestra habilidades clave de Ingeniería de Datos y Analytics En
 - automatización de validaciones de calidad
 - observabilidad y alertamiento
 - documentación técnica y buenas prácticas de portafolio
+
+## 11. Entorno de desarrollo
+
+Este proyecto utilizará la siguiente estrategia de desarrollo:
+
+- **Apache Airflow** se ejecutará localmente con Docker.
+- **dbt** se configurará dentro del proyecto y se conectará a Snowflake.
+- **Snowflake** se utilizará como el data warehouse en la nube.
+- **AWS S3** se utilizará como la zona de aterrizaje de datos en bruto.
+- **Slack** se utilizará para las notificaciones del pipeline.
+- Las variables de entorno se gestionarán mediante un archivo local .env basado en .env.example.
+
+### Variables de entorno requeridas
+El proyecto requiere credenciales y configuración para:
+- Conexión a Snowflake
+- Acceso a AWS y bucket de S3
+- Notificaciones por webhook de Slack
+- Entorno local de Airflow
