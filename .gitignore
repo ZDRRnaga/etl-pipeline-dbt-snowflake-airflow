@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# dbt
+dbt/dbt_packages/
+dbt/target/
+dbt/logs/
+
+# Env files
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
