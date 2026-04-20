@@ -1,0 +1,6 @@
+customer_id, first_name, last_name, email                      , city       , country, created_at
+          1, Ana       , Lopez    , ana.lopez@example.com      , Mexico City, Mexico , 2026-01-10
+          2, Carlos    , Ruiz     , carlos.ruiz@example.com    , Guadalajara, Mexico , 2026-01-11
+          3, Lucia     , Torres   , lucia.torres@example.com   , Monterrey  , Mexico , 2026-01-12
+          4, Diego     , Martinez , diego.martinez@example.com , Puebla     , Mexico , 2026-01-13
+          5, Sofia     , Hernandez, sofia.hernandez@example.com, Merida     , Mexico , 2026-01-14

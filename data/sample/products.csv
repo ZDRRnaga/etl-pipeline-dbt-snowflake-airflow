@@ -1,0 +1,6 @@
+product_id, product_name       , category   , price , created_at
+       101, Mechanical Keyboard, Electronics, 120.00, 2026-01-01
+       102, Wireless Mouse     , Electronics,  45.00, 2026-01-01
+       103, USB-C Hub          , Electronics,  60.00, 2026-01-02
+       104, Laptop Stand       , Accessories,  35.00, 2026-01-02
+       105, Webcam HD          , Electronics,  80.00, 2026-01-03
